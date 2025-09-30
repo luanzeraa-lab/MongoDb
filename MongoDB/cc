@@ -1,0 +1,4 @@
+mongodb+srv://luansilvapicoli:<db_password>@clusterdsm3.043o3uq.mongodb.net/?retryWrites=true&w=majority&appName=ClusterDSM3
+mongoimport --uri "mongodb+srv://luansilvapicoli:sfdnh123@clusterdsm3.043o3uq.mongodb.net/db_rest?retryWrites=true&w=majority" --type json --file restaurants_street.json --db db_rest --collection clRest
+
+mongosh "mongodb+srv://clusterdsm3.043o3uq.mongodb.net/" --apiVersion 1 --username luansilvapicoli

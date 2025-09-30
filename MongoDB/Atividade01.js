@@ -2,6 +2,8 @@ use ('Atividade01');
 
 //Resposta 2:
 //console.log(db.Restaurante.find());
+//ou
+// db.REstaurante.find({}).pretty();
 
 //Resposta 3:
 // console.log(db.Restaurante.countDocuments({}));
@@ -39,4 +41,4 @@ use ('Atividade01');
 // console.log(db.Restaurante.countDocuments({}));
 
 //Resposta 12:
-db.Restaurante.drop();
+// db.Restaurante.drop();
