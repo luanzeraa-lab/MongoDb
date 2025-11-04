@@ -72,3 +72,4 @@ db.Funcionario.insertOne({
     dependente: {},
     cargo: "dev"
 })
+
